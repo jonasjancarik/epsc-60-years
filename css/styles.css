@@ -264,6 +264,8 @@ BUTTON
 .testimonials-landing .tile-story-fullscreen > .container-fluid
 {
 	background-color: rgba(0, 0, 0, 0.299);
+	min-height: 100vh;
+	overflow: scroll;
 }
 .testimonials-landing .tile-story-fullscreen P
 {

@@ -168,7 +168,7 @@
 </div><!-- /.container-fluid section-showcase-2 -->
 
 <div class="tile-story-fullscreen">
-	<div class="container-fluid" style="height: 100vh;">
+	<div class="container-fluid">
 		<div class="close"><i class="fa fa-window-close" aria-hidden="true"></i></div>
 		<div class="row align-items-center" style="height: 100vh">
 			<div class="col text-center tile-story-fullscreen-content">
@@ -354,8 +354,11 @@ $(document).ready(function(){
 		for (var i = 0; i < users.length; i++) {
 
 			var name = users[i].name;
-			var age = users[i].age ? users[i].age + ', ' : '';
-			var nationality = users[i].nationality;
+			var age = users[i].age ? users[i].age : '';
+			var nationality = users[i].nationality ? users[i].nationality : '';
+
+			if (age && nationality) {	age = age + ', '; }
+
 			var text = users[i].contribution.text.split(/\s+/).slice(0,5).join(" ") + '…';
 
 			var image = users[i].contribution.image;
@@ -407,8 +410,9 @@ $(document).ready(function(){
 
 		var user = users[userId];
 
-		var age = user.age ? user.age + ', ' : '';
+		var age = user.age ? user.age : '';
 		var nationality = user.nationality ? user.nationality : '';
+		if (age && nationality) {	age = age + ', '; }
 
 		if (user.contribution.video) {
 			var video = '<div class="container"><row><div class="col"><div class="embed-responsive embed-responsive-16by9">' +
@@ -428,10 +432,13 @@ $(document).ready(function(){
 		$('.tile-story-fullscreen').data('user-id', userId);
 
 		$('.tile-story-fullscreen').show('');
+		$('body').css('overflow', 'hidden');
 
 	}
 
 	function fullscreenHide () {
+		$('body').css('overflow', 'visible');
+		// history.back(1);
 		$('.tile-story-fullscreen').hide('');
 		$('.tile-story-fullscreen-content').html('');
 		// $('.tile-story-fullscreen .embed-responsive-item').stopVideo();
@@ -471,7 +478,7 @@ $(document).ready(function(){
 				}
 
 			} else {
-				$('.tile-story-fullscreen').hide();
+				fullscreenHide();
 			}
 
 		});
