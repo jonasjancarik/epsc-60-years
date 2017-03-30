@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <!-- Social Share Kit CSS -->
+  <link rel="stylesheet" href="css/social-share-kit.css" type="text/css">
+  <title></title>
+</head>
+<body class="testimonials-form">
+  <div class="container mt-3">
+		<div class="row text-center">
+			<div class="col">
+				<a href="https://ec.europa.eu/epsc" style="color: #fff; text-decoration: none; color: #fff;"><img alt=
+				"European Commission logo" id="banner-flag" src=
+				"https://ec.europa.eu/epsc/sites/epsc/themes/epsc_template/logo.png" style="z-index: 100;"></a>
+			</div><!-- /.col -->
+		</div><!-- /.row -->
+		<!-- /.row -->
+	</div>
+	<div class="container-fluid" style="background-color: #0065a2; height: 69px; margin-top: -33px; padding-top: 38px; z-index: -10;">
+		<div class="row">
+			<div class="col text-center">
+				<a href="https://ec.europa.eu/epsc" style="color: #fff; text-decoration: none; color: #fff;">European Political	Strategy Centre</a>
+			</div><!-- /.col -->
+		</div><!-- /.row -->
+	</div><!-- /.container-fluid -->
+<!-- <video autoplay="" class="fillWidth fadeIn animated" id="video-background" loop="" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg"><source src="assets/video/EU60_-_60_years_60_seconds.mp4" type="video/mp4"> Your browser does not support the video tag. I suggest you upgrade your browser.</video> -->
+
+<nav class="navbar sticky-top navbar-toggleable-md navbar-light" style="background-color: #e6e6e6;">
+  <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target=
+  "#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button> <a class="navbar-brand" href="index.html"><strong>{{hashtagMain}}</strong> #60words60years</a>
+  <!-- <span class="volume-control navbar-text">
+  <span class="volume-control-label">Enable sound</span>
+  <span class="fa fa-volume-off"></span>
+</span> -->
+<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html#your-voices">{{yourVoices}}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="form.html">{{addYourVoice}}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="index.html#about">{{aboutThisProject}}</a>
+    </li>
+    <li style="list-style: none; display: inline; display: none;">
+      <div class="dropdown" id="language-picker">
+        <button aria-expanded="false" aria-haspopup="true" class="btn btn-link dropdown-toggle" data-toggle="dropdown" id="language-picker-label" type="button">Language</button>
+        <div aria-labelledby="language-picker-label" class="dropdown-menu dropdown-menu-right"></div>
+      </div>
+    </li>
+  </ul>
+</div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="container text-center mt-5">
+
+    <h2 class="mt-5">Thank you!</h2>
+    <p>
+      Thank you for sharing your vision with us.
+    </p>
+
+    <h3 class="mt-5">Share this project:</h3>
+    <div class="ssk-group">
+      <a href="" class="ssk ssk-facebook"></a>
+      <a href="https://twitter.com/intent/tweet" class="ssk ssk-twitter"></a>
+      <a href="" class="ssk ssk-google-plus"></a>
+      <!-- <a href="" class="ssk ssk-pinterest"></a> -->
+      <a href="" class="ssk ssk-tumblr"></a>
+    </div>
+
+  </div>
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!-- Social Share Kit JS -->
+<script type="text/javascript" src="js/social-share-kit.js"></script>
+
+<script>
+$(document).ready(function(){
+  // debugger;
+
+  // === social sharing ===
+
+  // Init Social Share Kit
+  SocialShareKit.init({
+    url: 'http://ec.europa.eu/epsc/future-of-europe',
+    twitter: {
+      title: '#60words60years - I have shared mine! What is your #FutureOfEurope vision?',
+      via: 'ECThinkTank'
+    },
+    onBeforeOpen: function(targetElement, network, paramsObj){
+      console.log(arguments);
+    },
+    onOpen: function(targetElement, network, url, popupWindow){
+      console.log(arguments);
+    },
+    onClose: function(targetElement, network, url, popupWindow){
+      console.log(arguments);
+    }
+  });
+
+  $(function () {
+
+    // Just to disable href for other example icons
+    $('.ssk').on('click', function (e) {
+      e.preventDefault();
+    });
+
+  });
+
+  // load the Twitter widgets.js file asynchronously
+  window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+
+    return t;
+  }(document, "script", "twitter-wjs"));
+
+  // // Demo callback
+  // function twitterDemoCallback(e) {
+  //     $('#twitterEvents').append(e.type + ' ');
+  // }
+
+  // Bind to Twitter events
+  twttr.ready(function (tw) {
+    // tw.events.bind('click', twitterDemoCallback);
+    // tw.events.bind('tweet', twitterDemoCallback);
+  });
+
+  // === / social sharing ===
+
+  // build language menu
+  $.getJSON('lang/languages.json', function(languages) {
+    languages = languages.languages;
+    var urlParams = getUrlParams();
+    for (var i = 0; i < languages.length; i++) {
+      var language = languages[i].language;
+      var locale = languages[i].locale;
+      urlParams.lang = locale;
+      console.log(urlParams);
+      $('#language-picker .dropdown-menu')
+      .append('<a href="' + window.location.href.split('?')[0]
+      + '?' + $.param(urlParams)
+      + '"><button class="dropdown-item" type="button">'
+      + languages[i].language + '<\/button><\/a>');
+    }
+  });
+
+  // translate strings
+  var lang = (getUrlParams('lang')) ? getUrlParams('lang') : 'en_GB';
+  console.log(getUrlParams('lang'));
+  console.log(lang);
+  translate(lang);
+
+  function translate (lang) {
+    console.log('setting language to ' + lang);
+    $.getJSON('lang/' + lang + '/translations.json', function(translations) {
+
+      (function f(translations, parent = false) {
+        for (var exp in translations) {
+          if (translations.hasOwnProperty(exp)) {
+
+            if (typeof translations[exp] === 'object') {
+
+              if (!parent) {
+                newParent = exp;
+              } else {
+                newParent = parent + '.' + exp;
+              }
+
+              f(translations[exp], newParent);
+
+            } else if (typeof translations[exp] === 'string') {
+
+              var path = (parent) ? parent + '.' : '';
+
+              var needle = new RegExp('{{' + path + exp + '}}', 'g');
+
+              $('body :not(script)').not('iframe').contents().filter(function() {
+                return this.nodeType === 3;
+              }).replaceWith(function() {
+                return this.nodeValue.replace(needle, translations[exp]);
+              });
+
+            } else {
+
+              console.error('translation node type mismatch');
+              console.log(typeof translations[exp]);
+
+            }
+          }
+        }
+        
+        // reveal translated elements
+        $('.translate').css('visibility','visible').hide().fadeIn("fast");
+
+      })(translations);
+
+    });
+  }
+
+  // http://stackoverflow.com/questions/19491336/get-url-parameter-jquery-or-how-to-get-query-string-values-in-js
+  function getUrlParams(k) {
+
+    // debugger;
+
+    var p={};
+    location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){p[k]=v})
+    return k?p[k]:p;
+
+    // var searchParams = new URLSearchParams(window.location.search)
+    // if ( searchParams.has(k) ) {
+    //      var lang = searchParams.get('sent');
+    //      return lang;
+    // } else {
+    //  return false;
+    // }
+  }
+
+});
+</script>
+
+</body>
+</html>

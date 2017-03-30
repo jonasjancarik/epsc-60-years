@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "name": "Ben",
+      "age": "24",
+      "nationality": "Germany",
+      "contribution": {
+        "text": "The European Union united different religions, cultures, and histories of friends and foes. Hence, being a framework for prosperity and peace. I hope that my kids will grow up in a #FutureOfEurope.",
+        "image": false,
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "name": "Shaziea",
+      "age": "26",
+      "nationality": "Belgium",
+      "contribution": {
+        "text": "The future of Europe is in our hands. The target we should aim for is identifying the areas to improve in order to build a strong, fair and united Europe. The European Union, being a sui generis political construction, is a perfect combination of different cultures, languages and histories. The real strength of Europe is the diversity of the nations.",
+        "image": false,
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "name": "Zach",
+      "age": "26",
+      "nationality": false,
+      "contribution": {
+        "text": "As a non-European who has made a home within an EU Member State, I'm moved by the Union's commitment to social solidarity, global security, and inclusive growth. The European Union should never lose sight of the values that have it made exceptional throughout these past 60 years.",
+        "image": false,
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "name": "Eva",
+      "age": "36",
+      "nationality": "Italy",
+      "contribution": {
+        "text": "Essere europei, diceva Einstein, è un'istinto e un'inclinazione. Io contengo molte identità, e quella europea è quella che le raccoglie tutte, che le le esalta tutte. Sono periferica, provinciale, eppure poliglotta, sono toscana, italiana, eppure cittadina del mondo, sono nipote di arabi e di normanni, amo il sacro ma sono profondamente laica. Sono donna, sono libera. Sono europea.",
+        "image": "users/eva1.jpg",
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "name": "Frederico",
+      "age": "25",
+      "nationality": "Portugal",
+      "contribution": {
+        "text": "I believe that we need to get the EU closer to the citizens, by implementing measures that every citizen can identify. As such, I propose putting forward a proposal for the 9th of May to become the first EU-wide holiday. A day where Commissioners, MEPs and local politicians and media can with citizens celebrate the EU through events and gatherings.",
+        "image": false,
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "name": "Lore",
+      "age": "21",
+      "nationality": "Belgium",
+      "contribution": {
+        "text": "I wish that Europe has the courage to open up the borders not only between, but also in the minds of these citizens. That we can be proud again of our union!",
+        "image": "users/lore1.jpg",
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "name": "Eero",
+      "age": "28",
+      "nationality": "Finland",
+      "contribution": {
+        "text": "Strong Common Security and Defence!",
+        "image": "users/eero1.jpg",
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "name": "Korneel",
+      "age": "28",
+      "nationality": "Belgium",
+      "contribution": {
+        "text": "An end to social dumping, an army of its own and a strong foreign policy to maintain peace and prosperity for another 70+ years.",
+        "image": false,
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "name": "Jose",
+      "age": "53",
+      "nationality": "Spain",
+      "contribution": {
+        "text": "Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice.",
+        "image": false,
+        "video": false,
+        "document": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <title>#FutureOfEurope - Add Your Voice</title>
+  <script src="//webtools.ec.europa.eu/captcha/js/captcha.js">
+  </script>
+</head>
+<body class="testimonials-form">
+  <div class="container mt-3">
+    <div class="row text-center">
+      <div class="col">
+        <a href="https://ec.europa.eu/epsc" style="color: #fff; text-decoration: none; color: #fff;"><img alt=
+          "European Commission logo" id="banner-flag" src=
+          "https://ec.europa.eu/epsc/sites/epsc/themes/epsc_template/logo.png" style="z-index: 100;"></a>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+      <!-- /.row -->
+    </div>
+    <div class="container-fluid" style=
+    "background-color: #0065a2; height: 69px; margin-top: -33px; padding-top: 38px; z-index: -10;">
+    <div class="row">
+      <div class="col text-center">
+        <a href="https://ec.europa.eu/epsc" style="color: #fff; text-decoration: none; color: #fff;">European Political
+          Strategy Centre</a>
+        </div><!-- /.col -->
+      </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+    <nav class="navbar sticky-top navbar-toggleable-md navbar-light" style="background-color: #e6e6e6;">
+      <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class=
+      "navbar-toggler navbar-toggler-right" data-target="#navbarSupportedContent" data-toggle="collapse" type=
+      "button"><span class="navbar-toggler-icon"></span></button> <a class="navbar-brand translate" href=
+      "index.html"><strong>{{hashtagMain}}</strong><br class="hidden-md-up"> #60words60years</a> <!-- <span class="volume-control navbar-text">
+        <span class="volume-control-label">Enable sound</span>
+        <span class="fa fa-volume-off"></span>
+      </span> -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link translate" href="index.html#your-voices">{{yourVoices}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link translate" href="form.html">{{addYourVoice}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link translate" href="index.html#about">{{aboutThisProject}}</a>
+          </li>
+          <li style="list-style: none; display: inline;">
+            <div class="dropdown" id="language-picker">
+              <button aria-expanded="false" aria-haspopup="true" class="btn btn-link dropdown-toggle" data-toggle="dropdown"
+              id="language-picker-label" type="button">Language</button>
+              <div aria-labelledby="language-picker-label" class="dropdown-menu dropdown-menu-right"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid" style=
+    "height: 20vh; background-image: url('assets/img/AP922680492243-low.jpg'); background-position: center center;"></div>
+    <div class="container-fluid section-form">
+      <div class="row">
+        <div class="container form-container pt-5 pr-5 pl-5">
+          <div class="row">
+            <div class="col text-center translate">
+              <h1>{{hashtagMain}}</h1>
+              <h2>#60words60years</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid section-form">
+      <div class="row">
+        <div class="container form-container pt-5 pr-5 pl-5">
+          <div class="row">
+            <div class="col">
+              <form action="http://webtools.ec.europa.eu/form-tools/captchaprocess.php" enctype="multipart/form-data" id="form"
+              method="post" name="form" role="form">
+              <!-- <input type="hidden" name="form_tools_initialize_form" value="1" /> -->
+              <input name="form_tools_form_id" type="hidden" value="1296">
+              <div class="form-group row mt-4">
+                <label class="col-md-4 text-md-right translate" for="q1textarea">{{form.q1}}</label>
+                <div class="col-md-6 pl-0">
+                  <textarea class="form-control" data-minlength="1" id="q1textarea" name="text" rows="6"></textarea>
+                </div>
+                <div class="col-md-2 text-md-center">
+                  <div class="word-counter translate">
+                    <span>{{form.wordCount}}</span><br>
+                    <span id="word-count">0</span> / <span id="word-count-remaining">60</span>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row mt-4">
+                <label class="col-md-4 text-md-right translate" for="videoFile">{{form.addSomething}}</label>
+                <div class="col-md-8 pl-0 translate">
+                  <p><em>{{form.addSomethingDetails}}</em></p>
+                  <div class="">
+                    <label class="translate" style="min-width: 15em;" for="imageFile">
+                      <!-- <button class="btn btn-primary" type="button">Upload a photo</button> -->
+                      {{form.uploadPhoto}}
+                    </label>
+                    <input accept="image/*" class="" id="imageFile" name="imageFile" style="" type="file">
+                  </div>
+                  <div class="">
+                    <label class="translate" style="min-width: 15em;" for="videoFile">
+                      <!-- <button class="btn btn-primary" type="button">Upload a video</button> -->
+                      {{form.uploadVideo}}
+                    </label>
+                    <input accept="video/mp4,video/x-m4v,video/*" class="" id="videoFile" name="videoFile" style="" type="file">
+                  </div>
+                  <div class="">
+                    <label class="translate" style="min-width: 15em;" for="docFile">
+                      <!-- <button class="btn btn-primary" type="button">Upload any document</button> -->
+                      {{form.uploadDoc}}
+                    </label>
+                    <input class="" id="docFile" name="docFile" style="" type="file">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row mt-4">
+                <label class="col-md-4 text-md-right translate" for="firstName">{{form.name}}</label> <input class="col-md-4 form-control" id=
+                "firstName" name="firstName" placeholder="" type="">
+              </div>
+              <div class="form-group row mt-4">
+                <label class="col-md-4 text-md-right translate" for="age">{{form.age}}</label> <input class="col-md-4 form-control" id="age" max=
+                "123" min="0" name="age" type="number" value="">
+                <!-- <input class="col-md-4 form-control" id="lastName" name="lastName" placeholder="" type=""> -->
+              </div>
+              <div class="form-group row mt-4">
+                <label class="col-md-4 text-md-right translate" for="nationality">{{form.nationality}}</label> <select form="form" id=
+                "nationality" name="nationality">
+                <option disabled selected value="">
+                </option>
+                <option value="Austria">
+                  Austria
+                </option>
+                <option value="Belgium">
+                  Belgium
+                </option>
+                <option value="Bulgaria">
+                  Bulgaria
+                </option>
+                <option value="Croatia">
+                  Croatia
+                </option>
+                <option value="Cyprus">
+                  Cyprus
+                </option>
+                <option value="Czech Republic">
+                  Czech Republic
+                </option>
+                <option value="Denmark">
+                  Denmark
+                </option>
+                <option value="Estonia">
+                  Estonia
+                </option>
+                <option value="Finland">
+                  Finland
+                </option>
+                <option value="France">
+                  France
+                </option>
+                <option value="Germany">
+                  Germany
+                </option>
+                <option value="Greece">
+                  Greece
+                </option>
+                <option value="Hungary">
+                  Hungary
+                </option>
+                <option value="Ireland">
+                  Ireland
+                </option>
+                <option value="Italy">
+                  Italy
+                </option>
+                <option value="Latvia">
+                  Latvia
+                </option>
+                <option value="Lithuania">
+                  Lithuania
+                </option>
+                <option value="Luxembourg">
+                  Luxembourg
+                </option>
+                <option value="Malta">
+                  Malta
+                </option>
+                <option value="Netherlands">
+                  Netherlands
+                </option>
+                <option value="Poland">
+                  Poland
+                </option>
+                <option value="Portugal">
+                  Portugal
+                </option>
+                <option value="Romania">
+                  Romania
+                </option>
+                <option value="Slovakia">
+                  Slovakia
+                </option>
+                <option value="Slovenia">
+                  Slovenia
+                </option>
+                <option value="Spain">
+                  Spain
+                </option>
+                <option value="Sweden">
+                  Sweden
+                </option>
+                <option value="United Kingdom">
+                  United Kingdom
+                </option>
+                <option disabled value="">
+                  ------------
+                </option>
+                <option value="Other">
+                  {{form.other}}
+                </option>
+              </select>
+              <!-- <input class="col-md-4 form-control" type="list" value="" min="0" max="123" id="nationality"> -->
+              <!-- <input class="col-md-4 form-control" id="lastName" name="lastName" placeholder="" type=""> -->
+            </div><!-- <div class="form-group row mt-4">
+              <label class="col-md-4 text-md-right" for="occupation">Occupation</label>
+              <input class="col-md-4 form-control" id="lastName" name="lastName" placeholder="What you do in life" type="">
+            </div> -->
+            <div class="form-group row mt-4">
+              <label class="col-md-4 text-md-right translate" for="email">{{form.email}}</label> <input aria-describedby="emailHelp"
+              class="col-md-4 form-control" data-error="Please check the email address." id="email" name="email" placeholder=
+              "" required="" type="email">
+              <div class="col-md-4 help-block with-errors text-danger"></div>
+            </div>
+            <div class="form-check row">
+              <div class="col-md-8 offset-md-4 translate">
+                <label class="form-check-label" style="padding-left: 5px;"><input class="form-check-input" name="terms" type=
+                  "checkbox" value="TRUE"> {{form.legal}}</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 offset-md-4">
+                  <span class="captcha" style="max-width: 100%">
+                    <!--{"lang":"en","label_confirmation_field":"Please type the text above"}//--></span>
+                  </div><!-- /.col -->
+                </div><!-- /.row -->
+                <div class="row mt-5 mb-5">
+                  <div class="col text-center">
+                    <button class="btn btn-primary translate" type="submit">{{form.submit}}</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div><!-- Modal -->
+        <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="privacyStatementModal" role=
+        "dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Specific Privacy Statement<br>
+                <small>Public consultation "EPSC #FutureOfEurope" referred as "consultation" in the
+                  text</small></h5><button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden=
+                    "true">&times;</span></button>
+                  </div>
+                  <div class="modal-body">
+                    <h6>1. OBJECTIVE</h6>
+                    <p>
+                      The objective of this consultation is to receive the views of stakeholders or people
+                      concerned by the topic of the consultation and potentially to publish them on the Internet, under the
+                      responsibility of the Outreach and Communication team (EPSC.A.2), Directorate-General EPSC (European Political
+                      Strategy Centre), acting as the Controller.
+                    </p>
+                    <p>
+                      As this online service collects and further processes personal data,
+                      Regulation (EC) 45/2001, of the European Parliament and of the Council of 18 December 2000 on the protection of
+                      individuals with regard to the processing of personal data by the Community institutions and bodies and on the
+                      free movement of such data, is applicable.
+                    </p>
+                    <h6>2. WHAT PERSONAL INFORMATION DO WE COLLECT AND THROUGH WHICH TECHNICAL MEANS?</h6>
+                    <h7>Identification Data</h7>
+                    <p>
+                      The personal data collected and further processed are data necessary for the participation in the
+                      consultation, such as name/surname/profession/ postal & e-mail addresses/phone number/fax
+                      number/age/nationality/pictures/videos of the contributors, including their views on the topics concerned.
+                    </p>
+                    <p>
+                      Internal participants may, in some cases, be selected through an appropriate sampling in Sysper2 or ComRef.
+                      This sampling results in lists used by the Controller to send invitations to participate.
+                    </p>
+                    <p>
+                      The processing operations on personal data linked to the organisation and management of this consultation are
+                      necessary for the management and functioning of the Commission, as mandated by the Treaties, and more
+                      specifically in Article 5 of TEU, Article 13 TEU and Articles 244-250 TFEU, and in accordance with Article 1 and
+                      Article 11of TEU.
+                    </p>
+                    <h7>Technical information</h7>
+                    <p>
+                      The website "https://ec.europa.eu/epsc/future-of-europe" uses session "cookies" in order to ensure
+                      communication between the client and the server. Therefore, user's browser must be configured to accept
+                      "cookies". The cookies disappear once the session has been terminated.
+                    </p>
+                    <h6>3. WHO HAS ACCESS TO YOUR INFORMATION AND TO WHOM IS IT DISCLOSED?</h6>
+                    <p>
+                      Received contributions, together
+                      with the identity of the contributor (except the email address), will be published on the Internet, unless the
+                      contributor objects to publication of the personal data on the grounds that such publication would harm his or
+                      her legitimate interests. In this case the contribution may be published in anonymous form. Otherwise the
+                      contribution will not be published nor will, in principle, its content be taken into account. Any objections
+                      concerning publication of personal data should be sent to the service responsible for the consultation (see
+                      Contact information below).
+                    </p>
+                    <p>
+                      The access to all personal data as well as all information collected in the context
+                      of this consultation is only granted through UserId/Password to a defined population of users, without prejudice
+                      to a possible transmission to the bodies in charge of a monitoring or inspection task in accordance with
+                      Community legislation. These users typically are members of the Unit organising the consultation inside the DG,
+                      acting as processor.
+                    </p>
+                    <p>
+                      No personal data is transmitted to parties which are outside the recipients and the legal
+                      framework mentioned.
+                    </p>
+                    <p>
+                      The European Commission will not share personal data with third parties for direct
+                      marketing purposes.
+                    </p>
+                    <h6>4. HOW DO WE PROTECT AND SAFEGUARD YOUR INFORMATION?</h6>
+                    <p>
+                      Your replies, together with your chosen language
+                      used for drafting the reply, are recorded in a secured and protected database hosted by the Data Centre of the
+                      European Commission, the operations of which abide by the Commission's security decisions and provisions
+                      established by the Directorate of Security for this kind of servers and services. The database is not accessible
+                      from outside the Commission. Inside the Commission the database can be accessed using a UserId/Password.
+                    </p>
+                    <h6>5. HOW CAN YOU VERIFY, MODIFY OR DELETE YOUR INFORMATION?</h6>
+                    <p>
+                      In case you want to verify which personal data
+                      is stored on your behalf by the responsible controller, have it modified, corrected or deleted, please contact
+                      the Controller by using the Contact Information below and by <em>explicitly specifying your request</em>.
+                    </p>
+                    <h6>6. HOW LONG DO WE KEEP YOUR DATA?</h6>
+                    <p>
+                      Your personal data will remain in the database until the results have
+                      been completely analysed and will be rendered anonymous when they have been usefully exploited, and at the
+                      latest after 1 year from the end of the consultation.
+                    </p>
+                    <h6>7. CONTACT INFORMATION</h6>
+                    <p>
+                      In case you wish to verify which personal data is stored on your behalf by the
+                      responsible controller, have it modified, corrected, or deleted, or if you have questions regarding the
+                      consultation, or concerning any information processed in the context of the consultation, or on your rights,
+                      feel free to contact the support team, operating under the responsibility of the Controller, using the following
+                      contact information:
+                    </p>
+                    <p>
+                      EPSC - Outreach and Communication Team<br>
+                      Phone number: +32 2 2981965<br>
+                      Email address: <a href="mailto:epsc-think-tank-news@ec.europa.eu">epsc-think-tank-news@ec.europa.eu</a>
+                    </p>
+                    <h6>8. RECOURSE</h6>
+                    <p>
+                      Complaints, in case of conflict, can be addressed to the <a href="https://secure.edps.europa.eu/EDPSWEB/">European Data Protection Supervisor</a>.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div><!-- jQuery first, then Tether, then Bootstrap JS. -->
+            <script src="https://code.jquery.com/jquery-3.1.1.min.js">
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">
+            </script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js">
+            </script>
+            <script>
+            $(document).ready(function(){
+
+              // form validation
+
+              $('#form').validator();
+
+              // debugger;
+
+              // // video fadeout after 10 seconds - development only, should be replaced by a shorter video in production
+              // setTimeout(function(){
+              //   $('#video-background').fadeOut(2000);
+              //   $('#video-background').animate({volume: 0}, 1000);
+              // }, 10000);
+              //
+              // //     $('#video-background').bind('ended', function(){
+              // //    $(this).parent().fadeOut()
+              // // })
+              //
+              // // volume control behaviour
+              // $('.volume-control').click(function(){
+              //   $(this).find('.fa').each(function(){
+              //     if ($(this).hasClass('fa-volume-off')) {
+              //       $('.volume-control-label').text('Mute');
+              //       $('#video-background').prop('muted', false);
+              //       $('#video-background').attr('volume', 0); // volume seems to jump directly to 1
+              //       $('#video-background').animate({volume: 1}, 600);
+              //       $(this).removeClass('fa-volume-off').addClass('fa-volume-up');
+              //     } else if ($(this).hasClass('fa-volume-up')) {
+              //       $('.volume-control-label').text('Enable sound');
+              //       $('#video-background').animate({volume: 0}, 600, function() {
+              //         $('#video-background').prop('muted', true);
+              //       });
+              //       $(this).removeClass('fa-volume-up').addClass('fa-volume-off');
+              //     }
+              //   });
+              // });
+
+              // build language menu
+              $.getJSON('lang/languages.json', function(languages) {
+                languages = languages.languages;
+                var urlParams = getUrlParams();
+                console.log(urlParams);
+                for (var i = 0; i < languages.length; i++) {
+                  var language = languages[i].language;
+                  var locale = languages[i].locale;
+                  urlParams.lang = locale;
+                  console.log(urlParams);
+                  $('#language-picker .dropdown-menu')
+                  .append('<a href="' + window.location.href.split('?')[0]
+                  + '?' + $.param(urlParams)
+                  + '"><button class="dropdown-item" type="button">'
+                  + languages[i].language + '<\/button><\/a>');
+                }
+              });
+
+              // translate strings
+              var lang = (getUrlParams('lang')) ? getUrlParams('lang') : 'en_GB';
+              console.log(lang);
+              translate(lang);
+
+              function translate (lang) {
+                console.log('setting language to ' + lang);
+                $.getJSON('lang/' + lang + '/translations.json', function(translations) {
+
+                  (function f(translations, parent = false) {
+                    for (var exp in translations) {
+                      if (translations.hasOwnProperty(exp)) {
+
+                        if (typeof translations[exp] === 'object') {
+
+                          if (!parent) {
+                            newParent = exp;
+                          } else {
+                            newParent = parent + '.' + exp;
+                          }
+
+                          f(translations[exp], newParent);
+
+                        } else if (typeof translations[exp] === 'string') {
+
+                          var path = (parent) ? parent + '.' : '';
+
+                          var needle = new RegExp('{{' + path + exp + '}}', 'g');
+
+                          $('body :not(script)').contents().filter(function() {
+                            return this.nodeType === 3;
+                          }).replaceWith(function() {
+                            return this.nodeValue.replace(needle, translations[exp]);
+                          });
+
+                        } else {
+
+                          console.error('translation node type mismatch');
+                          console.log(typeof translations[exp]);
+
+                        }
+                      }
+                    }
+
+                    // reveal translated elements
+                    $('.translate').css('visibility','visible').hide().fadeIn("fast");
+
+                  })(translations);
+
+                });
+              }
+
+              // http://stackoverflow.com/questions/19491336/get-url-parameter-jquery-or-how-to-get-query-string-values-in-js
+              function getUrlParams(k) {
+                var p={};
+                location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){p[k]=v})
+                return k?p[k]:p;
+              }
+
+              // word count limit
+              setInterval(function() {
+
+                var textAreaValue = $("#q1textarea").val();
+
+                var words = textAreaValue ? textAreaValue.match(/\S+/g).length : 0;
+
+                var wordLimit = 60
+                if (words > wordLimit) {
+                  // Split the string on first 200 words and rejoin on spaces
+                  var trimmed = $("#q1textarea").val().split(/\s+/, wordLimit).join(" ");
+                  // Add a space at the end to make sure more typing creates new words
+                  $("#q1textarea").val(trimmed + " ");
+                }
+                else {
+                  words = (words > 0) ? words : '<span class="text-danger">0<\/span>';
+                  $('#word-count').html(words);
+                  // $('#word-count-remaining').text(wordLimit-words);
+                }
+
+
+              }, 100);
+
+            });
+            </script>
+          </div>
+        </div>
+      </body>
+      </html>

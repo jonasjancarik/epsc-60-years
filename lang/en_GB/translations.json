@@ -1,0 +1,37 @@
+{
+  "aboutThisProject": "About this project",
+  "addYourVoice": "Add Your Voice",
+  "content": {
+    "about": {
+      "short": "<p>\n<a href='https://ec.europa.eu/epsc'>The European Political Strategy Centre</a>, the European Commission's in-house think tank, took the occasion of the 60th anniversary of the Treaties of Rome to reflect on the&nbsp;European&nbsp;story.<p>\n</p>Examining the goals and principles which have underpinned sixty years of integration, the time has now come to think in earnest about the future direction our joint project should take.</p>\n<p>\n<strong>This is your space to join the debate on the #FutureOfEurope</strong> and share with us and others your hopes and aspirations &ndash; both for the EU itself but also for your own life and that of future generations. So let's look forward together to build a better Europe. \n</p>"
+    },
+    "whitePaper": "The White Paper",
+    "whitePaperText": "<a class=\"text-white\" href=\"https://ec.europa.eu/commission/white-paper-future-europe-reflections-and-scenarios-eu27_en\">\n<img alt=\"White Paper on the Future of Europe\" class=\"mb-3\" src=\"assets/img/wp-cover-page-title.jpg\" style=\"max-width: 100%\">\n</a>\n<p>The White Paper presented by the European Commission on 1&nbsp;March 2017 sets out possible paths for the future of Europe.</p>\n\t\t\t\t<p>It offers five scenarios for the Union's evolution. Which one will become reality depends on the choices we will\n\t\t\t\tmake.</p>\n<i aria-hidden=\"true\" class=\"fa fa-file-text\"></i> <a class=\"text-white\" href=\"https://ec.europa.eu/commission/white-paper-future-europe-reflections-and-scenarios-eu27_en\"><u>Read the White Paper on the Future of Europe</u></a>"
+  },
+  "form": {
+    "addSomething": "Add something",
+    "addSomethingDetails": "If you’d like, you can add files to your answer.",
+    "age": "Age",
+    "captcha": "Please type the text above:",
+    "email": "Email",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "legal": "I agree that my input might be published on this site. (See full <a href=\"\" data-toggle=\"modal\" data-target=\"#privacyStatementModal\">privacy statement</a> for more details.)",
+    "mandatory": "Mandatory",
+    "name": "Name",
+    "nationality": "Nationality",
+    "other": "Other",
+    "pleaseChoose": "please choose",
+    "q1": "Share your hopes and aspirations for the future of Europe.",
+    "submit": "Send",
+    "uploadDoc": "Upload a document",
+    "uploadPhoto": "Upload a photo",
+    "uploadVideo": "Upload a video",
+    "wordCount": "Word count"
+  },
+  "hashtagMain": "#FutureOfEurope",
+  "thankYou": "Thank you!",
+  "thankYouText": "Thank you for sharing your vision with us.",
+  "theEuropeanStory": "The European Story",
+  "yourVoices": "Your Voices"
+}

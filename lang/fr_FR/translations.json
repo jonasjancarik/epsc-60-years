@@ -1,0 +1,32 @@
+{
+  "aboutThisProject": "A propos",
+  "addYourVoice": "Ajoute ta voix",
+  "content": {
+    "whitePaper": "Le livre blanc"
+  },
+  "form": {
+    "addSomething": "Ajoute autre chose",
+    "addSomethingDetails": "Si tu le souhaite, tu peux ajouter des fichiers à ta contribution.",
+    "age": "Age",
+    "captcha": "Veuillez introduire le texte ci-dessus:",
+    "email": "Courriel",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "legal": "J'accepte que ma contribution soit publiée sur cette page web. (Voir <a href=\"\" data-toggle=\"modal\" data-target=\"#privacyStatementModal\">la politique d'utilisation des données</a> pour plus d'information).",
+    "mandatory": "doit être rempli",
+    "name": "Nom",
+    "nationality": "Nationalité",
+    "other": "autre",
+    "pleaseChoose": "Veuillez choisir",
+    "q1": "Partage tes voeux et tes aspirations pour le future de l'Europe.",
+    "submit": "Envoyer",
+    "uploadDoc": "Partage un document.",
+    "uploadPhoto": "Partage une photo.",
+    "uploadVideo": "Partage une vidéo.",
+    "wordCount": "Compte de mots"
+  },
+  "hashtagMain": "#FutureOfEurope",
+  "thankYou": "Merci!",
+  "theEuropeanStory": "L’histoire européenne",
+  "yourVoices": "Vos voix"
+}

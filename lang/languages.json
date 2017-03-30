@@ -1,0 +1,16 @@
+{
+  "languages": [
+    {
+      "language": "English",
+      "locale": "en_GB"
+    },
+    {
+      "language": "French",
+      "locale": "fr_FR"
+    },
+    {
+      "language": "German",
+      "locale": "de_DE"
+    }
+  ]
+}

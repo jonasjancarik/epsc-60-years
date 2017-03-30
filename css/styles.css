@@ -1,0 +1,392 @@
+BODY
+{
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	/*font-family: Gotham;*/
+	font-family: Montserrat, "EC Square Sans Pro", sans-serf;
+}
+BODY.testimonials-landing
+{
+	/*background-image: url('http://ec.europa.eu/assets/epsc/website-files/european-story/AP922680492243-low.jpg');*/
+	/*background-size: cover;*/
+	/*background-color: #000;*/
+}
+BODY.testimonials-form
+{
+	/*background-image: url('http://ec.europa.eu/assets/epsc/website-files/european-story/AP922680492243-low.jpg');*/
+	/*background-size: cover;*/
+	/*color: #FFF;*/
+	/*font-size: 1.4em;*/
+}
+#video-background
+{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100vw;
+	min-height: 100vh;
+	width: auto;
+	height: auto;
+	/*z-index: -100;*/
+}
+.translate
+{
+	visibility: hidden;
+}
+A BUTTON
+{
+	cursor: pointer;
+}
+BUTTON
+{
+	/*font-family: "EC Square Sans Pro";*/
+	font-family: Montserrat, "EC Square Sans Pro", sans-serf;
+}
+.btn-primary
+{
+	background: #0081CD;
+	color: #FFFFFF;
+	border: 3px solid #0081CD;
+	border-radius: 0px;
+}
+.btn-primary:hover
+{
+	background: none;
+	color: #000;
+	border: 3px solid #0081CD;
+	border-radius: 0px;
+}
+.full-height
+{
+	min-height: 100vh;
+}
+.overlay-white-30
+{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.background-black
+{
+	/*background-color: #FFFFFF;*/
+}
+.overlay-black-15
+{
+	background-color: rgba(0, 0, 0, 0.15);
+}
+.overlay-black-70
+{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.bg-purple
+{
+	background-color: rgba(177, 100, 237, 0.795);
+}
+/*LANDING PAGE*/
+.testimonials-landing .btn-primary
+{
+	background-color: #FFF;
+	color: #000;
+	font-size: 1.6em;
+}
+/*.testimonials-landing .volume-control-in-body .volume-control
+{
+	color: rgba(255, 255, 255, 0.744);
+	cursor: pointer;
+	padding: 1em 0 0 0;
+	font-size: 1.6em;
+	(*position: fixed;*)
+}*/
+/*.testimonials-landing .volume-control-in-body .volume-control:hover
+{
+	color: #FFFFFF;
+}*/
+/*.testimonials-landing .volume-control-in-body .volume-control .volume-control-label
+{
+	(*display: block;*)
+	font-size: 1rem;
+	display: none;
+}*/
+/*.testimonials-landing .navbar .volume-control
+{
+	cursor: pointer;
+	font-size: 1em;
+	line-height: 1em;
+	min-width: 3em;
+	display: none;
+}*/
+/*.testimonials-landing .navbar .volume-control .volume-control-label
+{
+	(*display: inline;*)
+}*/
+@media (max-width: 544px)
+{
+	.testimonials-landing H1
+	{
+		color: rgba(255, 255, 255, 0.795);
+		font-weight: bold;
+		font-size: 8.3vw;
+	}
+	.testimonials-landing .cta-link
+	{
+		font-size: 11.3vw;
+	}
+}
+.testimonials-landing .section-splash
+{
+	/*background-color: rgba(255, 255, 255, 0.197);*/
+	min-height: 57vh;
+	/*background-image: url('../assets/img/AP922680492243-low-dark.jpg');*/
+	/*background-size: cover;*/
+	/*-webkit-background-clip: text;*/
+}
+.testimonials-landing .section-splash > .row
+{
+	min-height: 57vh;
+}
+.testimonials-landing .section-splash .section-splash-content
+{
+	/*color: rgba(255, 255, 255, 0);*/
+	/*background-image: url('../assets/img/AP922680492243-low.jpg');*/
+	/*background-size: cover;*/
+	/*background-position: 78%;*/
+	/*-webkit-background-clip: text;*/
+	/*-moz-background-clip: text;*/
+	/*background-clip:text;*/
+}
+.testimonials-landing .section-splash H1
+{
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0);
+	font-size: 6em;
+	font-size: 7.5vw;
+	/*margin-bottom: -0.1em;*/
+	/*margin-top: -1.9em;*/
+}
+.testimonials-landing .section-splash .cta-link
+{
+	/*font-size: 6vw;*/
+	/*line-height: 1.2em;*/
+	/*text-decoration: underline;*/
+	/*font-weight: 700;*/
+	/*text-transform: uppercase;*/
+	/*color: rgba(177, 100, 237, 0.427);*/
+	background-image: url('../assets/img/add-your-voice.jpg');
+	width: 70%;
+	max-width: 1074px;
+	padding-bottom: 9%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+}
+.testimonials-landing .section-splash .cta-link:hover
+{
+	/*color: #FFFFFF;*/
+	/*color: rgba(177, 100, 237, 0.795);*/
+	background-image: url('../assets/img/add-your-voice-hover.jpg');
+}
+.testimonials-landing .section-about
+{
+	background-color: #1E86D3;
+	color: #FFF;
+}
+.testimonials-landing .section-about A
+{
+	color: #FFF;
+	text-decoration: underline;
+}
+.testimonials-landing .section-about A:hover
+{
+	color: #EFEFEF;
+	text-decoration: underline;
+}
+.testimonials-landing .section-showcase
+{
+	/*background-color: rgba(177, 100, 237, 0.795);*/
+}
+.testimonials-landing .section-showcase .tile-story
+{
+	/*padding-bottom: 56.25%;*/
+	/*min-height: 30em;*/
+	color: #000;
+}
+.testimonials-landing .section-showcase .tile-story H3
+{
+	font-weight: 700;
+	background-color: #217ED6;
+	display: inline-block;
+	padding: 0 0.3em;
+	color: #FFFFFF;
+}
+.testimonials-landing .section-showcase .tile-story P
+{
+	font-size: 0.95em;
+}
+.testimonials-landing .section-showcase .tile-story IMG
+{
+	max-width: 100%;
+}
+.testimonials-landing .section-showcase .tile-story .author-photo
+{
+	width: 100%;
+	padding-bottom: 100%;
+	background-size: cover;
+}
+.testimonials-landing .section-showcase H2
+{
+	color: #FFF;
+}
+.testimonials-landing .section-share
+{
+	min-height: 12vh;
+}
+.testimonials-landing .section-share STRONG
+{
+	color: #323232;
+}
+.testimonials-landing .section-showcase-2
+{
+}
+.testimonials-landing .section-showcase-2 .tile-story-2-container
+{
+	background-size: cover;
+}
+.testimonials-landing .section-showcase-2 .tile-story-2
+{
+	/*padding-bottom: 30%;*/
+	color: #FFF;
+	/*background-color: rgba(0, 0, 0, 0.3);*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+	/* IE6-9 */
+	min-height: 20em;
+}
+.testimonials-landing .tile-story-fullscreen
+{
+	color: #FFF;
+	/*opacity: 0.95;*/
+	background-size: cover;
+	background-position: center center;
+	background-color: rgba(0, 0, 0, 0.650);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+	min-height: 100vh;
+	min-width: 100vw;
+	position: fixed;
+	top: 0;
+	z-index: 10000;
+	display: none;
+}
+.testimonials-landing .tile-story-fullscreen > .container-fluid
+{
+	background-color: rgba(0, 0, 0, 0.299);
+}
+.testimonials-landing .tile-story-fullscreen P
+{
+	max-width: 30em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.testimonials-landing .tile-story-fullscreen .close
+{
+	right: 0;
+	position: fixed;
+	/*width: 98%;*/
+	top: 0;
+	margin: 1em 1em 0 0;
+	font-weight: normal;
+	text-align: right;
+	color: #FFF;
+	opacity: 1;
+}
+.testimonials-landing .section-showcase-2 .tile-story-2 H3
+{
+	font-weight: 700;
+	background-color: #217ED6;
+	display: inline-block;
+	padding: 0 0.3em;
+	color: #FFFFFF;
+}
+.testimonials-landing .section-showcase-2 .tile-story-2 .tile-story-text
+{
+	font-size: 0.95em;
+	display: none;
+}
+/*FORM PAGE*/
+.testimonials-form .header-container
+{
+	/*background-image: url('http://ec.europa.eu/assets/epsc/website-files/european-story/AP922680492243-low.jpg');*/
+	background-size: cover;
+	background-position: 50%;
+	min-height: 25vh;
+	margin-bottom: 2.3em;
+}
+.testimonials-form H1
+{
+	/*margin-top: 10vh;*/
+	/*margin-bottom: 1.3em;*/
+	/*font-weight: 700;
+	font-size: 3.2em;*/
+	color: #003772;
+}
+@media (max-width: 500px)
+{
+	.testimonials-form H1
+	{
+		font-weight: 700;
+		font-size: 1.9em;
+	}
+	.testimonials-form H2
+	{
+		font-size: 1.6em;
+	}
+}
+.testimonials-form LABEL
+{
+	/*font-weight: 700;*/
+	font-size: 1.3em;
+	line-height: 1.15em;
+}
+.testimonials-form TEXTAREA, .testimonials-form .form-control
+{
+	border: 4px solid #A19B90;
+	border-radius: 0px;
+	font-family: Montserrat, "EC Square Sans Pro", sans-serf;
+}
+.testimonials-form .section-form
+{
+	/*background-image: url('../assets/img/AP922680492243-low.jpg');*/
+	background-size: cover;
+	/*color: #FFF;*/
+}
+.testimonials-form .form-container
+{
+	background-color: rgba(255, 255, 255, 0.957);
+}
+.testimonials-form SELECT
+{
+	border: 4px solid #A19B90;
+	border-radius: 0px;
+	font-family: Montserrat, "EC Square Sans Pro", sans-serf;
+	padding: 0.3em 0.6em;
+	color: #786C72;
+}
+.testimonials-form .word-counter #word-count
+{
+	font-size: 1.4em;
+}
+.testimonials-form .word-counter #word-count-remaining
+{
+	font-size: 1.4em;
+}
+.testimonials-form FORM .has-danger .form-control, .testimonials-form FORM .has-danger .TEXTAREA
+{
+	border: 4px solid #D9534F !important;
+}
+.captcha LABEL
+{
+	display: block;
+}

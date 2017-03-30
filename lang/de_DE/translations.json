@@ -1,0 +1,35 @@
+{
+  "aboutThisProject": "Über dieses Projekt",
+  "addYourVoice": "Lass uns Deine Stimme hören",
+  "content": {
+    "about": {
+      "short": "<p>\nDas <a href='https://ec.europa.eu/epsc'>European Political Strategy Centre</a>, der in-house Think Tank der Europäischen Kommission, nimmt den 60. Jahrestag der Unterzeichnung der Römischen Verträge zum Anlass, über die Europäische Geschichte zu reflektieren.\n</p>\n<p>\nDie sechzig Jahre der Integration wurden von Zielen und Prinzipien geleitet. Nun ist es an der Zeit, eine ernsthafte Debatte zu führen, welche Richtung unser gemeinsames Projekt in der Zukunft einschlagen soll.\n</p>\n<p>\nHier hast Du die Möglichkeit, Deine Stimme in der #FutureOfEurope Debatte hörbar zu machen. Teile Deine Hoffnungen und Wünsche – sowohl für die EU als auch für Dein eigenes Leben und das zukünftiger Generationen mit uns und mit anderen. Lass uns gemeinsam nach vorne schauen und ein besseres Europa bauen.\n</p>"
+    },
+    "whitePaper": "Das Weißbuch",
+    "whitePaperText": "<p>Das Weißbuch wurde am 1. März 2017 von der Europäischen Kommission vorgestellt. Es zeigt mögliche Pfade für die Zukunft Europas auf.</p>\n<p>Es präsentiert fünf Szenarien für die Entwicklung der EU. Welches Szenario Wirklichkeit wird, hängt von den Entscheidungen ab, die wir treffen werden.</p>\n<a class=\"text-white\" href=\"https://ec.europa.eu/commission/white-paper-future-europe-reflections-and-scenarios-eu27_en\"><i aria-hidden=\"true\" class=\"fa fa-file-text\"></i> <u>Lies das Weißbuch zur Zukunft Europas</u></a>"
+  },
+  "form": {
+    "addSomething": "Anhänge",
+    "addSomethingDetails": "Wenn Du möchtest, kannst Du eine oder mehrere Dateien hinzufügen.",
+    "age": "Alter",
+    "email": "E-Mail",
+    "firstName": "Vorname",
+    "lastName": "Name",
+    "legal": "Ich stimme zu, dass mein Beitrag ggf. auf dieser Website veröffentlicht werden kann. (Weitere Hinweise sind in der <a href=\"\" data-toggle=\"modal\" data-target=\"#privacyStatementModal\">Datenschutzerklärung</a>.)",
+    "mandatory": "Pflichtfeld",
+    "name": "Name",
+    "nationality": "Nationalität",
+    "other": "andere",
+    "q1": "Teile Deine Hoffnungen und Wünsche für die Zukunft Europas.",
+    "submit": "Senden",
+    "uploadDoc": "Ein Dokument hochladen",
+    "uploadPhoto": "Ein Foto hochladen",
+    "uploadVideo": "Ein Video hochladen",
+    "wordCount": "Wörter"
+  },
+  "hashtagMain": "#FutureOfEurope",
+  "thankYou": "Danke!",
+  "thankYouText": "Danke, dass Du Deine Vision von Europa mit uns teilst.",
+  "theEuropeanStory": "Efrolgsgeschichte Europa",
+  "yourVoices": "Eure Stimmen"
+}
