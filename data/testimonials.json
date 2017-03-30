@@ -1,12 +1,23 @@
 {
   "users": [
     {
+      "name": "Bertrand Piccard",
+      "age": "",
+      "nationality": "CEO, Solar Impulse",
+      "contribution": {
+        "text": "We need ambitious goals, like the energy transition – bringing renewable energies and energy efficiency; clean technologies in order to not only protect the environment but to create jobs, make profit, sustain growth. This is a way to bring social stability, wealth, peace – even fight poverty. Under the roof of clean energy you can have a better Europe and a better world.",
+        "image": "users/piccard_high.jpg",
+        "video": "https://www.youtube-nocookie.com/embed/MLu6yTMQMs4",
+        "document": false
+      }
+    },
+    {
       "name": "Ben",
       "age": "24",
       "nationality": "Germany",
       "contribution": {
         "text": "The European Union united different religions, cultures, and histories of friends and foes. Hence, being a framework for prosperity and peace. I hope that my kids will grow up in a #FutureOfEurope.",
-        "image": false,
+        "image": "war.jpg",
         "video": false,
         "document": false
       }
@@ -17,7 +28,7 @@
       "nationality": "Belgium",
       "contribution": {
         "text": "The future of Europe is in our hands. The target we should aim for is identifying the areas to improve in order to build a strong, fair and united Europe. The European Union, being a sui generis political construction, is a perfect combination of different cultures, languages and histories. The real strength of Europe is the diversity of the nations.",
-        "image": false,
+        "image": "flag.jpg",
         "video": false,
         "document": false
       }
@@ -28,7 +39,7 @@
       "nationality": false,
       "contribution": {
         "text": "As a non-European who has made a home within an EU Member State, I'm moved by the Union's commitment to social solidarity, global security, and inclusive growth. The European Union should never lose sight of the values that have it made exceptional throughout these past 60 years.",
-        "image": false,
+        "image": "solidarity.jpg",
         "video": false,
         "document": false
       }
@@ -50,7 +61,7 @@
       "nationality": "Portugal",
       "contribution": {
         "text": "I believe that we need to get the EU closer to the citizens, by implementing measures that every citizen can identify. As such, I propose putting forward a proposal for the 9th of May to become the first EU-wide holiday. A day where Commissioners, MEPs and local politicians and media can with citizens celebrate the EU through events and gatherings.",
-        "image": false,
+        "image": "democracy.jpg",
         "video": false,
         "document": false
       }
@@ -83,7 +94,7 @@
       "nationality": "Belgium",
       "contribution": {
         "text": "An end to social dumping, an army of its own and a strong foreign policy to maintain peace and prosperity for another 70+ years.",
-        "image": false,
+        "image": "war.jpg",
         "video": false,
         "document": false
       }
@@ -94,7 +105,7 @@
       "nationality": "Spain",
       "contribution": {
         "text": "Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice. Peace and Justice.",
-        "image": false,
+        "image": "berlin-wall.jpg",
         "video": false,
         "document": false
       }

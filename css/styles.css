@@ -86,36 +86,6 @@ BUTTON
 	color: #000;
 	font-size: 1.6em;
 }
-/*.testimonials-landing .volume-control-in-body .volume-control
-{
-	color: rgba(255, 255, 255, 0.744);
-	cursor: pointer;
-	padding: 1em 0 0 0;
-	font-size: 1.6em;
-	(*position: fixed;*)
-}*/
-/*.testimonials-landing .volume-control-in-body .volume-control:hover
-{
-	color: #FFFFFF;
-}*/
-/*.testimonials-landing .volume-control-in-body .volume-control .volume-control-label
-{
-	(*display: block;*)
-	font-size: 1rem;
-	display: none;
-}*/
-/*.testimonials-landing .navbar .volume-control
-{
-	cursor: pointer;
-	font-size: 1em;
-	line-height: 1em;
-	min-width: 3em;
-	display: none;
-}*/
-/*.testimonials-landing .navbar .volume-control .volume-control-label
-{
-	(*display: inline;*)
-}*/
 @media (max-width: 544px)
 {
 	.testimonials-landing H1
@@ -244,16 +214,16 @@ BUTTON
 }
 .testimonials-landing .section-showcase-2
 {
+	background-image: url('../assets/img/dark_geometric.png');
 }
 .testimonials-landing .section-showcase-2 .tile-story-2-container
 {
 	background-size: cover;
+	overflow: hidden;
 }
 .testimonials-landing .section-showcase-2 .tile-story-2
 {
-	/*padding-bottom: 30%;*/
 	color: #FFF;
-	/*background-color: rgba(0, 0, 0, 0.3);*/
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
 	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
 	/* FF3.6-15 */
@@ -264,6 +234,17 @@ BUTTON
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
 	/* IE6-9 */
 	min-height: 20em;
+	transition: transform 0.5s;
+	-webkit-transition: -webkit-transform 0.5s;
+}
+.testimonials-landing .section-showcase-2 .tile-story-2-container:hover .tile-story-2
+{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+}
+.testimonials-landing .section-showcase-2 .tile-story-2-container:hover A
+{
+	text-decoration: none;
 }
 .testimonials-landing .tile-story-fullscreen
 {
@@ -301,8 +282,9 @@ BUTTON
 	text-align: right;
 	color: #FFF;
 	opacity: 1;
+	z-index: 100;
 }
-.testimonials-landing .section-showcase-2 .tile-story-2 H3
+.testimonials-landing .section-showcase-2 .tile-story-2 H3, .tile-story-fullscreen H3
 {
 	font-weight: 700;
 	background-color: #217ED6;
@@ -313,7 +295,16 @@ BUTTON
 .testimonials-landing .section-showcase-2 .tile-story-2 .tile-story-text
 {
 	font-size: 0.95em;
-	display: none;
+	/*display: none;*/
+}
+.testimonials-landing .section-showcase-2 .tile-story-2 .read-more
+{
+	border: 4px solid #FFFFFF;
+	display: inline-block;
+	padding: 0.4em;
+	/*background-color: #FFFFFF;*/
+	/*font-weight: bold;*/
+	background-color: rgba(0, 0, 0, 0.846);
 }
 /*FORM PAGE*/
 .testimonials-form .header-container
