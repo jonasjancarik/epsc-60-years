@@ -35,7 +35,12 @@
 
 <nav class="navbar sticky-top navbar-toggleable-md navbar-light" style="background-color: #e6e6e6;">
   <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target=
-  "#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button> <a class="navbar-brand" href="index.html"><strong>{{hashtagMain}}</strong> #60words60years</a>
+  "#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+  <a class="navbar-brand" href="index.html">
+    <strong>{{hashtagMain}}</strong>
+    <br class="hidden-md-up">
+     #60words60years
+  </a>
   <!-- <span class="volume-control navbar-text">
   <span class="volume-control-label">Enable sound</span>
   <span class="fa fa-volume-off"></span>
@@ -180,7 +185,7 @@ $(document).ready(function(){
     console.log('setting language to ' + lang);
     $.getJSON('lang/' + lang + '/translations.json', function(translations) {
 
-      (function f(translations, parent = false) {
+      (function f(translations, parent) {
         for (var exp in translations) {
           if (translations.hasOwnProperty(exp)) {
 
@@ -214,11 +219,11 @@ $(document).ready(function(){
             }
           }
         }
-        
+
         // reveal translated elements
         $('.translate').css('visibility','visible').hide().fadeIn("fast");
 
-      })(translations);
+      })(translations, false);
 
     });
   }

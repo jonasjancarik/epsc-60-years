@@ -450,7 +450,7 @@
                 console.log('setting language to ' + lang);
                 $.getJSON('lang/' + lang + '/translations.json', function(translations) {
 
-                  (function f(translations, parent = false) {
+                  (function f(translations, parent) {
                     for (var exp in translations) {
                       if (translations.hasOwnProperty(exp)) {
 
@@ -488,7 +488,7 @@
                     // reveal translated elements
                     $('.translate').css('visibility','visible').hide().fadeIn("fast");
 
-                  })(translations);
+                  })(translations, false);
 
                 });
               }

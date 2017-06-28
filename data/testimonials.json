@@ -1,6 +1,91 @@
 {
   "users": [
     {
+      "id": 17,
+      "name": "Jaap",
+      "age": "68",
+      "nationality": "The Netherlands",
+      "contribution": {
+        "text": "My hope is that the EU will not only form the world’s largest union of democracies, but also function as a democracy of its own. My present consists of a board game and a theory, which help the EU in its transition from a union of democratic states to a democratic union of states and citizens (theory of democratic integration).",
+        "image": "users/jaap1.jpg",
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "id": 16,
+      "name": "Daniele",
+      "age": "18",
+      "nationality": "Italy",
+      "contribution": {
+        "text": "I hope in the United States of Europe.",
+        "image": "flags.jpg",
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "id": 15,
+      "name": "Antonella",
+      "age": "27",
+      "nationality": false,
+      "contribution": {
+        "text": "The Europe I hope for is an emphatic, tolerant, inclusive and multicultural society that empowers their residents based on their choice to live there, not on their backgrounds. That embraces difference and change and doesn't act violently out of fear for the unknown. Only then there will be peace.",
+        "image": "diversity.jpg",
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "id": 14,
+      "name": "Luis",
+      "age": "51",
+      "nationality": "Spain",
+      "contribution": {
+        "text": "Schoolchildren should have at least 30 minutes of European history a week.",
+        "image": "school.jpg",
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "id": 13,
+      "name": "Tapio",
+      "age": "48",
+      "nationality": "Finland",
+      "contribution": {
+        "text": "We shall develop Europe, which is more connected, working together on the level of civil society and economy by its doers: people, entrepreneurs,companies and the third sector. Thereby we realize Europe’s greatest distinctive assets for prosperous future: Social Capital, strong values, pluralism, trust. World needs a guiding beacon, we’ve got the fuel and the tower - let’s light it up!",
+        "image": "flag.jpg",
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "id": 12,
+      "name": "Kieran",
+      "age": "18",
+      "nationality": "United Kingdom",
+      "contribution": {
+        "text": "Everyone needs to work together more to improve the effectiveness of the EU and show Europe that the EU is a force for good in the world. By being only a single market, some much potential and work is wasted. I hope brexit will be an opportunity for the EU to reform for the better. I'm hopeful for the future.",
+        "image": "flag.jpg",
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "id": 11,
+      "name": "Sabine",
+      "age": "27",
+      "nationality": "Latvia",
+      "contribution": {
+        "text": "No union is perfect, but some are worth really fighting for. My hope for the EU as it grows wiser, is that it never forgets the remarkable achievements it has delivered on, that it remains uncompromisingly proud of the values it stands for, and always reflective and self-critical when it ought to be.",
+        "image": "flag.jpg",
+        "video": false,
+        "document": false
+      }
+    },
+    {
+      "id": 10,
       "name": "Bertrand Piccard",
       "age": "",
       "nationality": "CEO, Solar Impulse",
@@ -12,6 +97,7 @@
       }
     },
     {
+      "id": 9,
       "name": "Ben",
       "age": "24",
       "nationality": "Germany",
@@ -23,6 +109,7 @@
       }
     },
     {
+      "id": 8,
       "name": "Shaziea",
       "age": "26",
       "nationality": "Belgium",
@@ -34,6 +121,7 @@
       }
     },
     {
+      "id": 7,
       "name": "Zach",
       "age": "26",
       "nationality": false,
@@ -45,6 +133,7 @@
       }
     },
     {
+      "id": 6,
       "name": "Eva",
       "age": "36",
       "nationality": "Italy",
@@ -56,6 +145,7 @@
       }
     },
     {
+      "id": 5,
       "name": "Frederico",
       "age": "25",
       "nationality": "Portugal",
@@ -67,6 +157,7 @@
       }
     },
     {
+      "id": 4,
       "name": "Lore",
       "age": "21",
       "nationality": "Belgium",
@@ -78,6 +169,7 @@
       }
     },
     {
+      "id": 3,
       "name": "Eero",
       "age": "28",
       "nationality": "Finland",
@@ -89,6 +181,7 @@
       }
     },
     {
+      "id": 2,
       "name": "Korneel",
       "age": "28",
       "nationality": "Belgium",
@@ -100,6 +193,7 @@
       }
     },
     {
+      "id": 1,
       "name": "Jose",
       "age": "53",
       "nationality": "Spain",
